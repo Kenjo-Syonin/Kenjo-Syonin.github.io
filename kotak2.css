@@ -1,0 +1,52 @@
+*{
+    color: white;
+    font-size: 50px;
+    font-size: 30px;
+    text-align:center;
+    float: left;
+    animation: blink 1s infinite;
+}
+
+.main1{
+    width: 100px;
+    height: 200px;
+    background-color: brown;
+    margin-right: 60px;
+    line-height: 200px;
+}
+
+.main2{
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+    margin-right: 60px;
+    line-height: 150px;
+    margin-top: 50px;
+}
+
+.main3{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    margin-top: 100px;
+    line-height: 100px;
+    background-color: green;
+
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .kedip {
+    animation: blink 1s infinite;
+  }
+ 

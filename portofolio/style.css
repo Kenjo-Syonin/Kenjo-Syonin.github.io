@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    padding: 30px 20px;
+}
+li:hover{
+    background-color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li a:hover{
+    color: white;
+}
+
+header{
+    width: auto;
+    height: 80px;
+    font-weight: bold;
+}
+
+header{
+    width: auto;
+    height: 65px;
+    background-color: bisque;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    margin: 0 auto;
+    top: 0;
+    z-index: 10;
+}
+
+.header-right{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    float: left;
+}
+

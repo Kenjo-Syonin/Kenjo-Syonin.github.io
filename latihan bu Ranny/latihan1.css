@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(download.jpg);
+    background-size: cover; 
+    text-align: center;
+}
+
+main{
+    text-align: center;
+    font-family: 'roboto mono';
+    font-style: italic;
+
+}
+
+main a{
+    display: flex;
+    display: inline-block;
+}
+a{
+    margin-top: 200px;
+    padding:5px 35px;
+    display: block;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    border: solid black;
+}
+
+a: :hover{
+
+}
+    
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+}

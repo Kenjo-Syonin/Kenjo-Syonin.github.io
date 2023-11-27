@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 100px ;
+}
+
+.shop-aside{
+    margin-top: 0;
+    position: fixed;
+
+}
+
+h1{
+    text-shadow: 2px 2px red;
+}
+
+.burdens{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    justify-content: space-evenly;
+}
+
+.cat{
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+    border: solid white 2px;
+    display: flex;
+    box-shadow: 5px 5px rgb(221, 114, 7);
+}
+
+.cat img{
+    max-height: ;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+button{
+    background-color: blueviolet;
+}
