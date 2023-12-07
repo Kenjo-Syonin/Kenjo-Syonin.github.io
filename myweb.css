@@ -49,26 +49,25 @@ section {
     box-shadow: 5px 5px cyan;
 }
 
-#project1, #project2 ,#project3{
-    padding: 5px;
-}
-
 footer {
     color: coral;
 }
 
-.header-right {
+.nav-right {
     float: right;
     margin-right: auto;
+    margin-right: 25px;
 }
 
-.header-right a {
+.nav-right a {
     line-height: 65px;
     padding: 0 25px;
     color: white;
     display: block;
     float: left;
     transition: all 0.5s;
+    margin-left: 5px;
+    border-radius: 20px;
 }
 
 a:hover {
@@ -92,10 +91,24 @@ nav {
     z-index: 10;
     max-width: auto;
     border-bottom: solid 2px yellow;
+    border-radius: 0 0 50px 50px;
 }
 
 #project {
     margin-top: 100px;
+}
+
+#project1,
+#project2,
+#project3 {
+    min-width: 0;
+    max-width: 350px;
+    padding: 5px;
+}
+
+#project a{
+    border-radius: 10px 50px 50px 10px;
+
 }
 
 #school {
@@ -189,8 +202,4 @@ h3 {
     }
 }
 
-@media (max-width 500px) {
-
-
-}
-
+@media (max-width 500px) {}

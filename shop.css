@@ -1,48 +1,97 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-main{
-    margin-top: 100px ;
+header{
+    background-color: red;
+    background-image: none;
 }
 
-.shop-aside{
+header img{
+    border-radius: 15px, 50px, 20px, 100px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.shop-aside {
     margin-top: 0;
     position: fixed;
 
 }
 
-h1{
-    text-shadow: 2px 2px red;
+h1 {
+    text-shadow: -3px -3px red;
 }
 
-.burdens{
+.burdens {
     display: flex;
     flex-wrap: wrap;
     margin-left: 200px;
+    border-left: double red 5px;
+    border-right: double red 5px;
     justify-content: space-evenly;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 5px;
 }
 
-.cat{
+.cat {
     padding: 10px;
     margin: 5px;
     margin-bottom: 30px;
     border: solid white 2px;
     display: flex;
-    box-shadow: 5px 5px rgb(221, 114, 7);
+    box-shadow: 8px 8px rgb(220, 115, 10);
+    width: 515px;
+    height: 220px;
+    border-radius: 20px 50px 5px 50px;
 }
 
-.cat img{
-    max-height: ;
+.cat img {
+    width: 260px;
+    height: 220px;
+    border-radius: 20px 50px 25px 50px;
+    border: double;
+    box-shadow: -4px -3px red;
 }
 
-.description{
+.description {
     display: flex;
     flex-direction: column;
     padding: 15px;
+    align-items: center;
+    justify-content: center;
 }
 
-button{
-    background-color: blueviolet;
+article a {
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 25px;
+    background-color: rgb(220, 115, 10);
+    color: black;
+    transition: all 0.5s;
+    border-radius: 100px 10px 100px 10px;
+    text-align: center;
+
+}
+
+article a:hover {
+    background-color: red;
+    color: white;
+    box-shadow: 4px 4px rgb(220, 115, 10);
+}
+
+@media (max-width:775px) {
+    .cat {
+        width: 300px;
+    }
+
+    .cat img {
+        width: 150px;
+        height: 150px;
+    }
 }
