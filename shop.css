@@ -6,7 +6,6 @@
 nav{
     background-color: rgb(220, 115, 10, 0.9);
     border-bottom: solid 2px white;
-    opacity: ;
 }
 
 .nav-right a{
@@ -90,7 +89,7 @@ article a:hover {
     box-shadow: 4px 4px rgb(220, 115, 10);
 }
 
-@media (max-width:775px) {
+@media (max-width:400px) {
     .cat {
         width: 300px;
     }
@@ -99,6 +98,25 @@ article a:hover {
         width: 150px;
         height: 150px;
     }
+
+    .shop-aside{
+        max-width: 50px;
+    }
+
+    .h1-shop{
+        font-size: 16px;
+    }
+
+    .burdens{
+        margin-left: 150px;
+    }
+
+    .cat{
+        max-width: 150px;
+        max-height: ;
+    }
+
+    
 }
 
 footer{

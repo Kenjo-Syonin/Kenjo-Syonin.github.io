@@ -197,18 +197,40 @@ h3 {
     }
 
     section {
-        max-width: 250px;
-        min-width: 250px;
+        max-width: 200px;
+        min-width: 200px;
     }
+
+    .cv-aside{
+        max-width: 65px;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .pp-aside{
+        max-width: 65px;
+        max-height: 65px;
+    }
+
+    .kenjo, .syonin{
+        font-size: 10px;
+    }
+
     .nav-right a{
         padding: 0 10px;
+        font-size: 12px;
     }
+
+
 }
 
-@media (max-width 500px) {
+@media (max-width 400px) {
     .nav-right a{
         padding: 0;
         width: 10px;
         margin: 0;
     }
+
+    aside:n
 }
