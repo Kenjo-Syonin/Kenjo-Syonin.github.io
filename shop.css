@@ -3,13 +3,18 @@
     padding: 0;
 }
 
-header{
-    background-color: red;
-    background-image: none;
+nav{
+    background-color: rgb(220, 115, 10, 0.9);
+    border-bottom: solid 2px white;
+    opacity: ;
 }
 
-header img{
-    border-radius: 15px, 50px, 20px, 100px;
+.nav-right a{
+    color: black;
+}
+
+.nav-right a:hover{
+    background-color: red;
 }
 
 main {
@@ -94,4 +99,14 @@ article a:hover {
         width: 150px;
         height: 150px;
     }
+}
+
+footer{
+    background-color: rgb(220, 115, 10);
+    text-align: center;
+}
+
+footer h3{
+    margin: 20px;
+    color: black;
 }
