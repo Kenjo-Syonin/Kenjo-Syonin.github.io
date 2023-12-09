@@ -8,6 +8,14 @@ nav{
     border-bottom: solid 2px white;
 }
 
+.logo{
+    background-color: black;
+    border-radius: 100px;
+    box-shadow: -2px -3px white;
+    border: solid rgb(220, 115, 10) 3px;
+    padding: 5px;
+}
+
 .nav-right a{
     color: black;
 }
@@ -89,7 +97,7 @@ article a:hover {
     box-shadow: 4px 4px rgb(220, 115, 10);
 }
 
-@media (max-width:400px) {
+@media (max-width:600px) {
     .cat {
         width: 300px;
     }
@@ -107,13 +115,18 @@ article a:hover {
         font-size: 16px;
     }
 
+    .p-shop{
+        font-size: 12px;
+    }
+
     .burdens{
         margin-left: 150px;
     }
 
     .cat{
         max-width: 150px;
-        max-height: ;
+        height: 330px;
+        display: list-item;
     }
 
     
