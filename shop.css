@@ -103,8 +103,8 @@ article a:hover {
     }
 
     .cat img {
-        width: 150px;
-        height: 150px;
+        width: 115px;
+        height: 115px;
     }
 
     .shop-aside{
@@ -120,16 +120,22 @@ article a:hover {
     }
 
     .burdens{
-        margin-left: 150px;
+        margin-left: 105px;
     }
 
     .cat{
         max-width: 150px;
-        height: 330px;
+        height: 250px;
         display: list-item;
     }
 
-    
+    .description{
+        font-size: 12px;
+    }
+
+    .shop-aside{
+        padding: 15px;
+    }
 }
 
 footer{
