@@ -204,38 +204,39 @@ h3 {
     section {
         max-width: 200px;
         min-width: 200px;
+        font-size: 12px;
     }
 
     .cv-aside{
-        max-width: 65px;
+        max-width: 50px;
+        max-height: 100px;
         align-items: center;
         margin-right: 0;
         margin-left: 10px;
+        padding: 10px;
+    }
+
+    .cv-aside h2{
+        font-size: 12px;
     }
 
     .pp-aside{
-        max-width: 65px;
-        max-height: 65px;
+        max-width: 50px;
+        max-height: 50px;
+        margin-bottom: 5px;
     }
 
     .kenjo, .syonin{
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .nav-right a{
         padding: 0 10px;
-        font-size: 12px;
+        font-size:  8px;
     }
 
-
-}
-
-@media (max-width 400px) {
-    .nav-right a{
-        padding: 0;
-        width: 10px;
-        margin: 0;
+    .logo{
+        margin-right: 0;
     }
-
-    aside:n
 }
+
