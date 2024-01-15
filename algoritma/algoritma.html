@@ -5,7 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .move {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation: moves 10s ease-in-out infinite;
+        }
+
+        @keyframes moves {
+            0% {
+                left: 350px;
+                top: 300px;
+            }
+
+            20% {
+                left: 900px;
+                top: 300px;
+            }
+
+            40% {
+                left: 450px;
+                top: 650px;
+            }
+
+            60% {
+                left: 625px;
+                top: 100px;
+            }
+
+            80% {
+                left: 800px;
+                top: 650px;
+            }
+
+            100% {
+                left: 350px;
+                top: 300px;
+            }
+        }
+
+        /* .box-shadow {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            animation: box-shadow 0.005ms ease-in-out infinite;
+        } */
+
+        @keyframes box-shadow {
+            0% {
+                left: 350px;
+                top: 200px;
+            }
+
+            20% {
+                left: 900px;
+                top: 200px;
+            }
+
+            40% {
+                left: 450px;
+                top: 550px;
+            }
+
+            60% {
+                left: 625px;
+                top: 0px;
+            }
+
+            80% {
+                left: 800px;
+                top: 550px;
+            }
+
+            100% {
+                left: 350px;
+                top: 200px;
+            }
+        }
+    </style>
 </head>
+
+<div class="move"></div>
+<div class="box-shadow"></div>
 
 <body style="background-color: black;">
     <script>
@@ -21,7 +105,7 @@
             console.log('b adalah yang terbesar');
         }
         else if (c > a && c > b) {
-            console.log('c adalah yang terbesar'); a
+            console.log('c adalah yang terbesar');
         }
         else if (a == b && a == c) {
             console.log('semua bilangan sama');
@@ -75,7 +159,7 @@
             console.log('anda dapat diskon 10% !! totalnya jadi: ' + diskon);
         }
 
-        // NO.5`````````````````````````````````````````````````
+        // NO.5
         let jam = 6;
 
         if (jam < 6) {
@@ -90,6 +174,7 @@
 
         // NO.6
         let air = 625;
+
         if (air <= 500.0) {
             console.log('Aman');
         }
@@ -102,6 +187,64 @@
         else if (air > 650) {
             console.log('Siaga 1');
         }
+
+
+        // Tahun Kabisat
+        // for (let tahun = 1600; tahun <= 2404; tahun += 4) {
+
+        //     if (tahun % 4 >= 1) {
+        //         console.log("Tahun " + tahun + " bukan tahun kabisat");
+        //     }
+        //     else if (tahun % 100 >= 1) {
+        //         console.log("Tahun " + tahun + " tahun kabisat");
+        //     }
+        //     else if (tahun % 400 >= 1) {
+        //         console.log("Tahun " + tahun + " bukan tahun kabisat");
+        //     }
+        //     else {
+        //         console.log("Tahun " + tahun + " tahun kabisat");
+        //     }
+        // }
+
+    // let thn =1600; 
+
+    // while(thn<=2404){
+    // thn+=4;
+
+    
+    // if (thn % 4 >= 1) {
+    //             console.log("Tahun " + thn + " bukan tahun kabisat");
+    //         }
+    //         else if (thn % 100 >= 1) {
+    //             console.log("Tahun " + thn + " tahun kabisat");
+    //         }
+    //         else if (thn % 400 >= 1) {
+    //             console.log("Tahun " + thn + " bukan tahun kabisat");
+    //         }
+    //         else {
+    //             console.log("Tahun " + thn + " tahun kabisat");
+    //         }
+    //     }
+
+        let year =1600;
+
+        do{
+            if (year % 4 >= 1) {
+                console.log("Tahun " + year + " bukan tahun kabisat");
+            }
+            else if (year % 100 >= 1) {
+                console.log("Tahun " + year + " tahun kabisat");
+            }
+            else if (year % 400 >= 1) {
+                console.log("Tahun " + year + " bukan tahun kabisat");
+            }
+            else {
+                console.log("Tahun " + year + " tahun kabisat");
+            }
+        
+        year += 4;
+    }while(year<=2404);
+
     </script>
 </body>
 

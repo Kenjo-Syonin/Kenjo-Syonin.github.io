@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let nilai = prompt('isi nilai');
+
+        if (nilai >= 90 && nilai <= 100) {
+            alert('anda lulus');
+        }
+        else if (nilai >= 80 && nilai <= 89) {
+            let jalur = prompt('mau pilih jalur rapot atau prestasi');
+
+            if (jalur == 'rapot') {
+                alert('anda memilih jalur rapot');
+            }
+            else if (jalur == 'prestasi') {
+                alert('anda memilih jalur prestasi');
+            }
+        }
+        else if (nilai <= 79) {
+            let tesm = prompt('isi nilai tes mandiri');
+
+            if (tesm > 79 && tesm <= 100) {
+                alert('anda lulus');
+            }
+            else {
+                alert('anda gagal');
+            }
+
+        }
+
+
+    </script>
+</body>
+
+</html>
