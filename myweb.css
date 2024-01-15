@@ -243,9 +243,45 @@ h3 {
         max-width: 200px;
         min-width: 200px;
         font-size: 12px;
+<<<<<<< HEAD
         margin-left: 0;
+=======
     }
 
+    .cv-aside{
+        max-width: 45px;
+        max-height: 100px;
+        align-items: center;
+        margin-right: 0;
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .cv-aside h2{
+        font-size: 12px;
+    }
+
+    .pp-aside{
+        max-width: 45px;
+        max-height: 45px;
+        margin-bottom: 5px;
+    }
+
+    .kenjo, .syonin{
+        font-size: 10px;
+    }
+
+    .nav-right a{
+        padding: 0 10px;
+        font-size:  8px;
+    }
+
+    .logo{
+        margin-right: 0;
+>>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
+    }
+
+<<<<<<< HEAD
     .cv-aside {
         max-width: 50px;
         max-height: 100px;
@@ -283,3 +319,5 @@ h3 {
         margin-right: 0;
     }
 }
+=======
+>>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
