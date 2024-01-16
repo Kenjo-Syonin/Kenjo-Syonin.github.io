@@ -8,28 +8,63 @@
 <body>
     <script>
 
-        // let a = prompt()
-        // for( let z= 0; z <= a; z++){
-        //     console.log('data ke -', z);
+
+        // Tahun Kabisat
+        // for (let tahun = 1600; tahun <= 2404; tahun += 4) {
+
+        //     if (tahun % 4 >= 1) {
+        //         console.log("Tahun " + tahun + " bukan tahun kabisat");
+        //     }
+        //     else if (tahun % 100 >= 1) {
+        //         console.log("Tahun " + tahun + " tahun kabisat");
+        //     }
+        //     else if (tahun % 400 >= 1) {
+        //         console.log("Tahun " + tahun + " bukan tahun kabisat");
+        //     }
+        //     else {
+        //         console.log("Tahun " + tahun + " tahun kabisat");
+        //     }
         // }
 
-        // let x= 1
-        // while (x <= 10) {
-        //     console.log ('data ke -', x)
-        //     x++
-        // }
+        // let thn =1600; 
 
-        // let y= 10
-        // do {
-        //     console.log('data y ke -', y)
-        //     y++
-        // } while (y<= 10)
+        // while(thn<=2404){
+        // thn+=4;
 
-        let n = 1
 
-        while( n <= 10){
-            
-        }
+        // if (thn % 4 >= 1) {
+        //             console.log("Tahun " + thn + " bukan tahun kabisat");
+        //         }
+        //         else if (thn % 100 >= 1) {
+        //             console.log("Tahun " + thn + " tahun kabisat");
+        //         }
+        //         else if (thn % 400 >= 1) {
+        //             console.log("Tahun " + thn + " bukan tahun kabisat");
+        //         }
+        //         else {
+        //             console.log("Tahun " + thn + " tahun kabisat");
+        //         }
+        //     }
+
+        let year = 1600;
+
+        do {
+            if (year % 4 >= 1) {
+                console.log("Tahun " + year + " bukan tahun kabisat");
+            }
+            else if (year % 100 >= 1) {
+                console.log("Tahun " + year + " tahun kabisat");
+            }
+            else if (year % 400 >= 1) {
+                console.log("Tahun " + year + " bukan tahun kabisat");
+            }
+            else {
+                console.log("Tahun " + year + " tahun kabisat");
+            }
+
+            year += 4;
+        } while (year <= 2404);
+
 
     </script>
 </body>

@@ -46,13 +46,13 @@
             }
         }
 
-        /* .box-shadow {
+        .box-shadow {
             width: 100px;
             height: 100px;
             background-color: blue;
             position: relative;
-            animation: box-shadow 0.005ms ease-in-out infinite;
-        } */
+            animation: box-shadow 3s ease-in-out infinite;
+        }
 
         @keyframes box-shadow {
             0% {
@@ -93,157 +93,274 @@
 
 <body style="background-color: black;">
     <script>
-        //NO. 1
-        let a = 10000;
-        let b = 500;
-        let c = 2500;
+        // //NO. 1
+        // let a = 10000;
+        // let b = 500;
+        // let c = 2500;
 
-        if (a > b && a > c) {
-            console.log('a adalah yang terbesar');
-        }
-        else if (b > a && b > c) {
-            console.log('b adalah yang terbesar');
-        }
-        else if (c > a && c > b) {
-            console.log('c adalah yang terbesar');
-        }
-        else if (a == b && a == c) {
-            console.log('semua bilangan sama');
-        }
-
-        //NO. 2
-        let no = -7;
-
-        if (no % 2 == 0) {
-            if (no < 0) {
-                console.log(no + ' bilangan genap negatif');
-            }
-            else if (no > 0) {
-                console.log(no + ' bilangan genap positif');
-            }
-
-        }
-
-        else if (no % 2 == 1) {
-            console.log(no + ' bilangan ganjil positif');
-        }
-
-        else if (no % 2 == -1) {
-            console.log(no + ' bilangan ganjil negatif');
-        }
-
-        //NO.3
-        let saklar = 1;
-
-        if (saklar == 1) {
-            console.log('ON');
-        }
-        else if (saklar == 0) {
-            console.log('OFF');
-        }
-        else {
-            console.log('error');
-        }
-
-        //NO.4
-        let item1 = 50000;
-        let item2 = 40000;
-        let item3 = 10000;
-        let total = item1 + item2 + item3;
-        let diskon = total * 90 / 100;
-
-        if (total < 100000) {
-            console.log(total);
-        }
-        if (total >= 100000) {
-            console.log('anda dapat diskon 10% !! totalnya jadi: ' + diskon);
-        }
-
-        // NO.5
-        let jam = 6;
-
-        if (jam < 6) {
-            console.log('Gaji anda adalah Rp. 100000');
-        }
-        else if (jam == 6) {
-            console.log('gaji anda adalah Rp. 200000');
-        }
-        else if (jam > 6) {
-            console.log('Gaji anda adalah Rp. 300000');
-        }
-
-        // NO.6
-        let air = 625;
-
-        if (air <= 500.0) {
-            console.log('Aman');
-        }
-        else if (air > 500.1 && air < 600) {
-            console.log('Waspada');
-        }
-        else if (air > 600.1 && air < 650) {
-            console.log('Siaga 2');
-        }
-        else if (air > 650) {
-            console.log('Siaga 1');
-        }
-
-
-        // Tahun Kabisat
-        // for (let tahun = 1600; tahun <= 2404; tahun += 4) {
-
-        //     if (tahun % 4 >= 1) {
-        //         console.log("Tahun " + tahun + " bukan tahun kabisat");
-        //     }
-        //     else if (tahun % 100 >= 1) {
-        //         console.log("Tahun " + tahun + " tahun kabisat");
-        //     }
-        //     else if (tahun % 400 >= 1) {
-        //         console.log("Tahun " + tahun + " bukan tahun kabisat");
-        //     }
-        //     else {
-        //         console.log("Tahun " + tahun + " tahun kabisat");
-        //     }
+        // if (a > b && a > c) {
+        //     console.log('a adalah yang terbesar');
+        // }
+        // else if (b > a && b > c) {
+        //     console.log('b adalah yang terbesar');
+        // }
+        // else if (c > a && c > b) {
+        //     console.log('c adalah yang terbesar');
+        // }
+        // else if (a == b && a == c) {
+        //     console.log('semua bilangan sama');
         // }
 
-    // let thn =1600; 
+        // //NO. 2
+        // let no = -7;
 
-    // while(thn<=2404){
-    // thn+=4;
+        // if (no % 2 == 0) {
+        //     if (no < 0) {
+        //         console.log(no + ' bilangan genap negatif');
+        //     }
+        //     else if (no > 0) {
+        //         console.log(no + ' bilangan genap positif');
+        //     }
 
-    
-    // if (thn % 4 >= 1) {
-    //             console.log("Tahun " + thn + " bukan tahun kabisat");
-    //         }
-    //         else if (thn % 100 >= 1) {
-    //             console.log("Tahun " + thn + " tahun kabisat");
-    //         }
-    //         else if (thn % 400 >= 1) {
-    //             console.log("Tahun " + thn + " bukan tahun kabisat");
-    //         }
-    //         else {
-    //             console.log("Tahun " + thn + " tahun kabisat");
-    //         }
-    //     }
+        // }
 
-        let year =1600;
+        // else if (no % 2 == 1) {
+        //     console.log(no + ' bilangan ganjil positif');
+        // }
 
-        do{
-            if (year % 4 >= 1) {
-                console.log("Tahun " + year + " bukan tahun kabisat");
+        // else if (no % 2 == -1) {
+        //     console.log(no + ' bilangan ganjil negatif');
+        // }
+
+        // //NO.3
+        // let saklar = 1;
+
+        // if (saklar == 1) {
+        //     console.log('ON');
+        // }
+        // else if (saklar == 0) {
+        //     console.log('OFF');
+        // }
+        // else {
+        //     console.log('error');
+        // }
+
+        // //NO.4
+        // let item1 = 50000;
+        // let item2 = 40000;
+        // let item3 = 10000;
+        // let total = item1 + item2 + item3;
+        // let diskon = total * 90 / 100;
+
+        // if (total < 100000) {
+        //     console.log(total);
+        // }
+        // if (total >= 100000) {
+        //     console.log('anda dapat diskon 10% !! totalnya jadi: ' + diskon);
+        // }
+
+        // // NO.5
+        // let jam = 6;
+
+        // if (jam < 6) {
+        //     console.log('Gaji anda adalah Rp. 100000');
+        // }
+        // else if (jam == 6) {
+        //     console.log('gaji anda adalah Rp. 200000');
+        // }
+        // else if (jam > 6) {
+        //     console.log('Gaji anda adalah Rp. 300000');
+        // }
+
+        // // NO.6
+        // let air = 625;
+
+        // if (air <= 500.0) {
+        //     console.log('Aman');
+        // }
+        // else if (air > 500.1 && air < 600) {
+        //     console.log('Waspada');
+        // }
+        // else if (air > 600.1 && air < 650) {
+        //     console.log('Siaga 2');
+        // }
+        // else if (air > 650) {
+        //     console.log('Siaga 1');
+        // }
+
+        //LKPD 2
+
+        // //gaji karyawan no 1
+        // let nama = prompt('masukkan nama karyawan');
+        // let gaji_pokok = 1000000;
+        // let tunjangan = gaji_pokok * 20/100;
+        // let pajak = 15/100 * (gaji_pokok + tunjangan);
+        // let gaji_bersih = gaji_pokok + tunjangan - pajak;
+
+        // console.log(nama + " gaji pokok mu adalah " + gaji_pokok)
+        // console.log("lalu tunjanganmu bernilai " + tunjangan)
+        // console.log("pajak mu adalah " + pajak)
+        // console.log("hasil dari gaji bersihmu adalah " + gaji_bersih)
+
+        //konversi waktu no 2
+        // let jam = 1;
+        // let menit = 30;
+        // let detik = 40;
+        // let total= jam * 3600 + menit * 60 + detik;
+
+        // console.log(total)
+
+        // // konversi waktu 2 no 3
+        // let totaldetik = parseInt(prompt("Masukkan total detik:"))d
+        // let jam = Math.floor(totaldetik / 3600);
+        // let sisadetik1 = totaldetik % 3600;
+        // let menit = Math.floor(sisadetik1 / 60);
+        // let detik = sisadetik1 % 60;
+
+        // console.log(`${totalDetik} detik sama dengan ${jam} jam ${menit} menit ${detik} detik.`);
+
+        //LKPD 3
+
+        // //jeruk no 1
+        // let berat = parseFloat(prompt("Masukkan berat jeruk (gram):"));
+
+        // let harga_kg = 500;
+        // let harga_sebelum  = (berat / 1000) * harga_kg;
+        // let diskon = 0.05 * harga_sebelum;
+        // let harga_setelah = harga_sebelum - diskon;
+
+        // console.log(`Total Harga Sebelum Diskon: ${ harga_sebelum } rupiah`);
+        // console.log(`Diskon: ${ diskon } rupiah`);
+        // console.log(`Total Harga Setelah Diskon: ${ harga_setelah } rupiah`);
+
+        // //digit no 2
+        // let bilangan = prompt("Masukkan bilangan bulat:");
+        // let bilangan_string = bilangan.toString();
+        // let satuan = parseInt(bilangan_string[bilangan_string.length - 1]) || 0;
+        // let puluhan = parseInt(bilangan_string[bilangan_string.length - 2]) || 0;
+        // let ratusan = parseInt(bilangan_string[bilangan_string.length - 3]) || 0;
+
+        // console.log("Bilangan satuan:", satuan);
+        // console.log("Bilangan puluhan:", puluhan);
+        // console.log("Bilangan ratusan:", ratusan);
+
+        // //tempratur no 3
+        // let suhu=parseInt(prompt) ;
+
+        // if(suhu>= 300){
+        //     console.log('panas');
+        // }
+        // else if(suhu<=250){
+        //     console.log('dingin');
+        // }
+        // else{
+        //     console.log('normal');
+        // }
+
+        //LKPD 4
+
+        // //Nilai no 1
+        //         let MATH = 78;
+        // let PABP = 92;
+        // let DPK = 82;
+        // let mean = (MATH + PABP + DPK)/3;
+
+        // if(mean >= 80 && mean <= 100) {
+        //     grade= "A";
+        // }
+        // else if (mean >= 75 && mean <80) {
+        //     grade = "B";
+        // }
+        // else if (mean >= 65 && mean <75) {
+        //     grade = "C";
+        // }
+        // else if (mean >= 45 && mean <65) {
+        //     grade = "D";
+        // }
+        // else if (mean >= 0 && mean <45) {
+        //     grade = "E";
+        // } else {
+        //     grade = "K";
+        // }
+
+        // console.log(rata-rata iqbal adalah: ${mean});
+        // console.log(Jadi nilai iqbal adalah: ${grade});
+
+        // //Format no 2
+        // let nomor = prompt("isi nomor mu (contoh 22505197803)")
+        // let nomor_string = nomor.toString();
+        // let satu = parseInt(nomor_string[nomor_string.length - 1]);
+        // let dua = parseInt(nomor_string[nomor_string.length - 2]);
+        // let tiga = parseInt(nomor_string[nomor_string.length - 3]);
+        // let empat = parseInt(nomor_string[nomor_string.length - 4]);
+        // let lima = parseInt(nomor_string[nomor_string.length - 5]);
+        // let enam = parseInt(nomor_string[nomor_string.length - 6]);
+        // let tujuh = parseInt(nomor_string[nomor_string.length - 7]);
+        // let delapan = parseInt(nomor_string[nomor_string.length - 8]);
+        // let sembilan = parseInt(nomor_string[nomor_string.length - 9]);
+        // let sepuluh = parseInt(nomor_string[nomor_string.length - 10]);
+        // let sebelas = parseInt(nomor_string[nomor_string.length - 11]);
+
+        // if (delapan === 0 && tujuh === 1) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Januari", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 0 && tujuh === 2) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Februari", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 0 && tujuh === 3) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Maret", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 0 && tujuh === 4) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan April", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 0 && tujuh === 5) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Mei", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 0 && tujuh === 6) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Juni", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 0 && tujuh === 7) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Juli", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 0 && tujuh === 8) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Agustus", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 0 && tujuh === 9) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan September", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 1 && tujuh === 0) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Oktober", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 1 && tujuh === 1) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan November", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // } else if (delapan === 1 && tujuh === 2) {
+        //     console.log("bergolongan", sebelas, " lahir pada tanggal", sepuluh, sembilan, " bulan Desember", " tahun ", enam, lima, empat, tiga, " dan bernomor urut ", dua, satu)
+        // }
+
+        //penambahan waktu no.3 
+        function tambahSatuDetik(waktu) {
+            let [jam, menit, detik] = waktu.split(':').map(Number);
+
+            if (detik < 59) {
+                detik += 1;
+            } else {
+                detik = 0;
+                if (menit < 59) {
+                    menit += 1;
+                } else {
+                    menit = 0;
+                    if (jam < 23) {
+                        jam += 1;
+                    } else {
+                        jam = 0;
+                    }
+                }
             }
-            else if (year % 100 >= 1) {
-                console.log("Tahun " + year + " tahun kabisat");
-            }
-            else if (year % 400 >= 1) {
-                console.log("Tahun " + year + " bukan tahun kabisat");
-            }
-            else {
-                console.log("Tahun " + year + " tahun kabisat");
-            }
-        
-        year += 4;
-    }while(year<=2404);
+
+            return `${jam.toString().padStart(2, '0')}:${menit.toString().padStart(2, '0')}:${detik.toString().padStart(2, '0')}`;
+        }
+
+        let waktu1 = '02:13:23';
+        let waktu2 = '02:13:59';
+        let waktu3 = '02:59:59';
+        let waktu4 = '23:59:59';
+
+        console.log(`Setelah penambahan 1 detik: ${tambahSatuDetik(waktu1)}`);
+        console.log(`Setelah penambahan 1 detik: ${tambahSatuDetik(waktu2)}`);
+        console.log(`Setelah penambahan 1 detik: ${tambahSatuDetik(waktu3)}`);
+        console.log(`Setelah penambahan 1 detik: ${tambahSatuDetik(waktu4)}`);
+
+
 
     </script>
 </body>
