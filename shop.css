@@ -3,20 +3,12 @@
     padding: 0;
 }
 
-<<<<<<< HEAD
-nav {
-=======
 nav{
->>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
     background-color: rgb(220, 115, 10, 0.9);
     border-bottom: solid 2px white;
 }
 
-<<<<<<< HEAD
-.logo {
-=======
 .logo{
->>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
     background-color: black;
     border-radius: 100px;
     box-shadow: -2px -3px white;
@@ -24,19 +16,11 @@ nav{
     padding: 5px;
 }
 
-<<<<<<< HEAD
-.nav-right a {
-    color: black;
-}
-
-.nav-right a:hover {
-=======
 .nav-right a{
     color: black;
 }
 
 .nav-right a:hover{
->>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
     background-color: red;
 }
 
@@ -140,7 +124,6 @@ article a:hover {
     animation-iteration-count: infinite;
 }
 
-<<<<<<< HEAD
 footer p{
     color: black;
 }
@@ -163,8 +146,6 @@ footer p{
     }
 }
 
-=======
->>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
 @media (max-width:600px) {
     .cat {
         width: 300px;
@@ -175,7 +156,6 @@ footer p{
         height: 115px;
     }
 
-<<<<<<< HEAD
     .shop-aside {
         max-width: 50px;
     }
@@ -193,64 +173,26 @@ footer p{
     }
 
     .cat {
-=======
-    .shop-aside{
-        max-width: 50px;
-    }
-
-    .h1-shop{
-        font-size: 16px;
-    }
-
-    .p-shop{
-        font-size: 12px;
-    }
-
-    .burdens{
-        margin-left: 105px;
-    }
-
-    .cat{
->>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
         max-width: 150px;
         height: 250px;
         display: list-item;
     }
 
-<<<<<<< HEAD
     .description {
         font-size: 12px;
     }
 
     .shop-aside {
-=======
-    .description{
-        font-size: 12px;
-    }
-
-    .shop-aside{
->>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
         padding: 15px;
     }
 }
 
-<<<<<<< HEAD
 footer {
-=======
-footer{
->>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
     background-color: rgb(220, 115, 10);
     text-align: center;
 }
 
-<<<<<<< HEAD
 footer h3 {
     margin: 20px;
     color: black;
 }
-=======
-footer h3{
-    margin: 20px;
-    color: black;
-}
->>>>>>> f80ac7b84e9ef912265056af56607bf17cfb6025
