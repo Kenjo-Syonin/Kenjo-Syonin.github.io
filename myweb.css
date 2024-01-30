@@ -43,7 +43,7 @@ main {
 
 section {
     max-width: 600px;
-    /* min-width: 600px; */
+    /* min-width: 600px; */ 
     margin: 20px auto;
     padding: 20px;
     border: solid white 2px;
